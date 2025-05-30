@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "StoryScape - AI文书助手",
+  "version": "1.0",
+  "description": "让AI辅助您创建完美的个人陈述，随时随地开始文书创作之旅",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "StoryScape - 开始创作"
+  },
+
+  "permissions": ["activeTab", "storage"],
+
+  "host_permissions": ["http://localhost:5000/*"]
+}
